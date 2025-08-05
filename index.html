@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Дубин Игорь</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #1a1a1a;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 1rem;
+      flex-direction: column;
+    }
+
+    .logo-wrapper {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 1.5rem;
+    }
+
+    .logo {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .container {
+      background-color: #1f1f1f;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .position {
+      font-size: 0.9rem;
+      color: #d1d5db;
+      margin-bottom: 0.25rem;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+    }
+
+    .company {
+      font-size: 1rem;
+      color: #9ca3af;
+      margin-bottom: 1.5rem;
+    }
+
+    .info-block {
+      background-color: #2d2d2d;
+      padding: 1rem;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      word-break: break-word;
+    }
+
+    .info-block a {
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .info-block a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 1.5rem 1rem;
+        border-radius: 12px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .avatar {
+        width: 100px;
+        height: 100px;
+      }
+
+      .info-block {
+        font-size: 0.95rem;
+      }
+
+      .logo-wrapper {
+        max-width: 220px;
+        margin-bottom: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="igor.jpg" alt="Дубин Игорь Игоревич" class="avatar" />
+    <div class="position">Генеральный директор</div>
+    <h1>Дубин Игорь Игоревич</h1>
+    <div class="company">ООО «УК «Современные рынки»</div>
+
+    <div class="info-block">
+      <p>📞 <a href="tel:+79001234567">+7 905 715-27-26</a></p>
+    </div>
+
+    <div class="info-block">
+      <p>📧 <a href="mailto:i.dubin@mmrus.ru">i.dubin@mmrus.ru</a></p>
+    </div>
+
+    <div class="info-block">
+      <p>📧 <a href="mailto:dubinii@adamas.ru">dubinii@adamas.ru</a></p>
+    </div>
+  </div>
+</body>
+</html>
